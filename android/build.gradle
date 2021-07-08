@@ -19,3 +19,11 @@ dependencies {
     compile "cn.aigestudio.wheelpicker:WheelPicker:1.0.3"
     compile 'com.facebook.react:react-native:+'
 }
+
+repositories {
+    maven {
+        url "https://maven.aliyun.com/nexus/content/groups/public"
+    }
+    google()
+    mavenCentral()
+}
